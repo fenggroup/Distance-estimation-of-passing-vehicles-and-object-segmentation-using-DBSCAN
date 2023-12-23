@@ -1,4 +1,4 @@
-# Distance-estimation-of-passing-vehicles-and-object-segmentation-using-DBSCAN
+# LiDAR Pointcloud: Distance Estimation of Passing Vehicles and Object Segmentation Using DBSCAN
 ### Overview
 - This repository contains Python scripts designed to process LiDAR point cloud data recorded on a bicycle, and extract the minimum passing distance of vehicles.
 - The scripts perform object segmentation using DBSCAN clustering, and identify cars within a specified distance threshold (maximum distance from the bike to look for passing cars). 
