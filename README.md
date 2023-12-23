@@ -58,7 +58,7 @@ This code was tested with pandas 2.0.3, numpy 1.24.3, scikit-learn 1.3.0, scipy 
     
     - If successful, the code will perform the operations outlined in the function and display the minimum passing distance at the output of the terminal or command prompt, and the visualization (3d scatter plot) will automatically open in your default browser. The plot is interactive and it will look as such:
       <p align="center">
-      <img src="screenshot.png" alt="Scatter plot" width="650" height="430">
+      <img src="Pointcloud.png" alt="Point cloud" width="650" height="430">
       </p>
 
     - The script saves labeled objects and their distances to a CSV file specified by `output_file_path`.
