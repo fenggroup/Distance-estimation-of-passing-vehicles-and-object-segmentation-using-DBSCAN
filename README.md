@@ -3,7 +3,7 @@
 - This repository contains Python scripts designed to process LiDAR point cloud data recorded on a bicycle, and extract the minimum passing distance of vehicles.
 - The scripts perform object segmentation using DBSCAN clustering, and identify cars within a specified distance threshold (maximum distance from the bike to look for passing cars). 
 <p align="center">
-  <img src="header_sc.png" alt="Scatter plot" width="550" height="400">
+  <img src="Figures/header_sc.png" alt="Scatter plot" width="550" height="400">
 </p>
 
 
@@ -58,7 +58,7 @@ This code was tested with pandas 2.0.3, numpy 1.24.3, scikit-learn 1.3.0, scipy 
     
     - If successful, the code will perform the operations outlined in the function and display the minimum passing distance at the output of the terminal or command prompt, and the visualization (3d scatter plot) will automatically open in your default browser. The plot is interactive and it will look as such:
       <p align="center">
-      <img src="Pointcloud.png" alt="Point cloud" width="650" height="430">
+      <img src="Figures/Pointcloud.png" alt="Point cloud" width="650" height="430">
       </p>
 
     - The script saves labeled objects and their distances to a CSV file specified by `output_file_path`.
@@ -75,7 +75,7 @@ The functions in the scripts perform the following steps:
 2. Remove points below a specified Z threshold, this ensures that noise points on the ground level are excluded to have cleaner clusters.
 3. Perform DBSCAN clustering on the remaining points.
 4. Calculate distances between the LiDAR and segmented objects.
-5. Identifie cars within the specified distance threshold, which ensures the maximum distance to look for passing cars on the left of the LiDAR position.
+5. Identify cars within the specified distance threshold, which ensures the maximum distance to look for passing cars on the left of the LiDAR position.
 6. Generate a 3D scatter plot visualizing the point cloud data and identified objects.
 
 ### Notes
